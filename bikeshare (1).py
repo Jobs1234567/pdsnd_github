@@ -70,7 +70,7 @@ def get_filters():
         if confirmation == 'y':
             break
         else:
-            print("\nHey,let's try this again!")
+            print("\nHey,guy，please try this again!")
 
     print('-'*40)
     return city, month, day
