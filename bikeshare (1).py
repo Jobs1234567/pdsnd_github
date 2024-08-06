@@ -137,7 +137,7 @@ def time_stats(df):
           'travel...\n')
     start_time = time.time()
 
-    # display the most common month
+    # display which is the most common month 
     most_common_month = df['Month'].mode()[0]
     print('For the selected filter, the month with the most travels is: ' +
           str(months[most_common_month-1]).title() + '.')
