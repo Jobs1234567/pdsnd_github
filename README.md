@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-3 cities bikeshare info
+3 cities bikeshare info.
 
 ### Files used
 Include the files used
