@@ -8,7 +8,11 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+<<<<<<< HEAD
 months = ('january', 'february', 'march', 'april', 'may', 'june','july','augest','september','octomber','november','december')
+=======
+months = ('january', 'february', 'march', 'april', 'may', 'june','july','augest','september','octomber','november')
+>>>>>>> refactoring
 
 weekdays = ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
             'saturday')
@@ -70,7 +74,11 @@ def get_filters():
         if confirmation == 'y':
             break
         else:
+<<<<<<< HEAD
             print("\nHey,guy，please try this again!")
+=======
+            print("\nHey,guy.Please try this again!")
+>>>>>>> refactoring
 
     print('-'*40)
     return city, month, day
